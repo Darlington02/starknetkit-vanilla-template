@@ -11,9 +11,9 @@ const exec = promisify(cp.exec);
 const rm = promisify(fs.rm);
 
 if (process.argv.length < 4) {
-  console.log("You have to provide an app name and choose your starter kit type.");
+  console.log("You have to provide an app name and optionally choose your starter kit type.");
   console.log("For example :");
-  console.log("    npx create-starknetkit-app my-app vanilla");
+  console.log("    npx create-starknetkit-app my-app starknet-react");
   process.exit(1);
 }
 
@@ -24,11 +24,11 @@ const projectPath = path.join(currentPath, projectName);
 
 // get github repo
 let git_repo;
-if(projectType == "vanilla"){
-    git_repo = "https://github.com/Darlington02/starknetkit-vanilla-template.git";
+if(projectType == "starknet-react"){
+  git_repo = "https://github.com/Darlington02/starknetkit-sr-template.git";
 }
 else {
-    git_repo = "https://github.com/Darlington02/starknetkit-sr-template.git";
+  git_repo = "https://github.com/Darlington02/starknetkit-vanilla-template.git";
 }
 
 // create project directory
