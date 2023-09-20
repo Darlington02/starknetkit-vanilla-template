@@ -13,7 +13,7 @@ const rm = promisify(fs.rm);
 if (process.argv.length < 4) {
   console.log("You have to provide an app name and choose your starter kit type.");
   console.log("For example :");
-  console.log("    npx create-starknet-app my-app vanilla");
+  console.log("    npx create-starknetkit-app my-app vanilla");
   process.exit(1);
 }
 

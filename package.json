@@ -1,7 +1,8 @@
 {
-  "name": "starknetkit-vanilla-template",
+  "name": "create-starknetkit-app",
   "version": "0.1.0",
-  "bin": "./bin/cli.js",
+  "author": "Darlington Nnam",
+  "bin": "./bin/cli.mjs",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,6 +14,7 @@
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
     "next": "13.4.19",
+    "ora": "^7.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   }
