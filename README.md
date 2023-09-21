@@ -26,4 +26,4 @@ cd my-app
 npm run dev
 ```
 
-<img width='100%' src="./public/template.png" />
+<img width='100%' src="https://miro.medium.com/v2/resize:fit:786/format:webp/1*EmmAeFYGtyzu_R5NHKUUrg.png" />
