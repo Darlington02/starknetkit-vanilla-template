@@ -6,10 +6,10 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          Welcome to&nbsp;
-          <code className={styles.code}>Starknetkit template</code>
-        </p>
+        <div className={styles.logoContainer}>
+          <img src="https://starknetkit-website-f0ejy1m72-argentlabs.vercel.app/starknetKit-logo-white.svg" alt="starknetkit logo" />
+          <span>Starknetkit</span>
+        </div>
         <div>
           <Connect />
         </div>
@@ -18,7 +18,7 @@ export default function Home() {
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="https://starknetkit-website-hpmttrvnh-argentlabs.vercel.app/SN-Symbol-Gradient.svg"
+          src="https://starknetkit-website-f0ejy1m72-argentlabs.vercel.app/starknetKit-logo-white.svg"
           alt="Starknetkit Logo"
           width={400}
           height={150}
