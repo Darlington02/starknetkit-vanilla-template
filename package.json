@@ -1,6 +1,6 @@
 {
   "name": "create-starknetkit-app",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "author": "Darlington Nnam",
   "bin": "./bin/cli.mjs",
   "scripts": {
@@ -10,12 +10,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@argent/starknetkit-test": "^1.0.3",
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
     "next": "13.4.19",
     "ora": "^7.0.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "starknetkit": "^1.0.2"
   }
 }

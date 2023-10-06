@@ -2,7 +2,7 @@
 import React from 'react'
 import styles from "./connect.module.css"
 import { useEffect, useState } from 'react'
-import { connect, disconnect } from "@argent/starknetkit-test"
+import { connect, disconnect } from "starknetkit"
 
 function Connect() {
   const [connection, setConnection] = useState('');
