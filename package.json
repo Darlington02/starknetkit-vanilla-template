@@ -1,6 +1,6 @@
 {
   "name": "create-starknetkit-app",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "author": "Darlington Nnam",
   "bin": "./bin/cli.mjs",
   "scripts": {
@@ -16,6 +16,6 @@
     "ora": "^7.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "starknetkit": "^1.0.21"
+    "starknetkit": "^1.1.3"
   }
 }
