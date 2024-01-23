@@ -1,6 +1,6 @@
 {
   "name": "create-starknetkit-app",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "author": "Darlington Nnam",
   "bin": "./bin/cli.mjs",
   "scripts": {
